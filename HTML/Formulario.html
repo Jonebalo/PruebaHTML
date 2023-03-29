@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formularios en HTML</h1>
+
+    <form action="#" method="get">
+      Name:
+
+      <input type="text" name="First Name" placeholder="Pon tu nombre" />
+      <br />
+
+      Apellido:
+
+      <input type="text" name="Second Name" placeholder="Pon tu apellido" />
+      <br />
+
+      Correo Electronico:
+
+      <input type="email" name="Correo" placeholder="Escribe tu correo" />
+      <br />
+
+      Contraseña:
+
+      <input
+        type="password"
+        name="Contraseña"
+        placeholder="Pon tu contraseña"
+      />
+      <br />
+
+      Telefono:
+
+      <input type="number" name="Telefono" placeholder="Pon tu Telefono" />
+      <br />
+
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Resetear" />
+    </form>
+
+    <hr />
+
+    <form>
+      <br /><br />
+      Elige tu genero:
+
+      <br />
+
+      <input type="radio" name="genero" id="femenino" checked /> Femenino <br />
+
+      <input type="radio" name="genero" id="masculino" /> Masculino <br />
+
+      <input type="radio" name="genero" id="Otros" /> Otros <br />
+
+      <br /><br />
+
+      Elige tu vehículo:
+
+      <br />
+
+      <input type="checkbox" name="Vehiculo1" value="Coche" /> Coche <br />
+
+      <input type="checkbox" name="Vehiculo2" value="Moto" /> Moto <br />
+
+      <input type="checkbox" name="Vehiculo3" value="Bici" /> Bici <br />
+
+      <br /><br />
+
+      <select name="pais">
+        <optgroup label="Europa">
+          <option value="ES">España</option>
+          <option value="IT">Italia</option>
+          <option value="IN">Inglaterra</option>
+        </optgroup>
+
+        <optgroup label="LATAM">
+          <option value="AR">Argentina</option>
+          <option value="VE">Venezuela</option>
+        </optgroup>
+      </select>
+
+      <br /><br />
+
+      <fieldset>
+        <legend>Datos Personales</legend>
+
+        <input type="text" name="First Name" placeholder="Pon tu nombre" />
+        <br />
+
+        <input type="text" name="Second Name" placeholder="Pon tu apellido" />
+        <br />
+
+    </fieldset>
+
+        <br/>
+
+        <textarea name="Message" rows="10" cols="50" placeholder="Ponme algo bonito"></textarea>
+
+        <br/><br/>
+
+        Tu cumpleaños:
+
+        <input type="date" name="birthday">
+        <br/> <br/>
+
+
+        <input type="file" name="My file">
+
+        <button type="submit">Enviar</button>
+
+        <input type="reset" value="Reestablecer"/>
+
+        <br/><br/>
+
+
+    </form>
+    <form>
+        <label for="nombre">
+            Nombre: 
+            <input type="text" name="nombre" id="nombre" placeholder="Insert your name"/>
+
+        </label>
+        <label for="apellido">
+            Apellido: 
+            <input type="text" name="apellido" id="apellido" placeholder="Insert your surname"/>
+        
+        </label>
+
+        <button type="submit">Enviar</button>
+
+        </form>
+
+        <hr/>
+
+        <h3>Login</h3>
+
+        <form>
+
+        <input type="email" name="email" placeholder="Insert your email"/>
+        <input type="password" name="password" placeholder="Insert your password"/>
+            <button submit>Enviar</button> 
+        </form>
+  </body>
+</html>
